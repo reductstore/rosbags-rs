@@ -22,7 +22,7 @@ anyhow = "1.0"
 clap = { version = "4.0", features = ["derive"] }
 
 # Database support
-rusqlite = { version = "0.31", features = ["bundled"], optional = true }
+rusqlite = { version = "0.41", features = ["bundled"], optional = true }
 
 # Compression support
 zstd = { version = "0.13", optional = true }
